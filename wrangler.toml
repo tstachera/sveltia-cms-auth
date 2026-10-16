@@ -1,3 +1,9 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Kariera DJ: zmienne jawne trzymane w repo, żeby wdrożenie ich nie skasowało.
+# GITHUB_CLIENT_SECRET jest sekretem ustawionym w panelu Cloudflare (nie w repo).
+[vars]
+GITHUB_CLIENT_ID = "Ov23lirLcW7vlXY6lOm7"
+ALLOWED_DOMAINS = "karieradj.pl"
